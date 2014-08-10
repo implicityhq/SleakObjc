@@ -79,8 +79,6 @@ NSString *queryStringValue(MutableOrderedDictionary *mutableOrderedDictionary) {
 	
 	NSString *sleakAuthorizationString = [NSString stringWithFormat:@"%@ %@, auth_nonce=\"%@\", auth_timestamp=\"%li\"", kSleakScheme, hmacData, randomString, (long)date];
 	
-	NSLog(@"%@", sleakAuthorizationString);
-	
 	[mutableRequest setValue:sleakAuthorizationString forHTTPHeaderField:kSleakAuthorizationKey];
 	[mutableRequest setValue:applicationId forHTTPHeaderField:kSleakApplicationIdKey];
 	
