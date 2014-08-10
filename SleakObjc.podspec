@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.source = { :git => 'https://github.com/sleak/sleakobjc.git', :tag => "v#{spec.version}" }
   spec.requires_arc = true
   spec.license  = { :type => 'MIT', :file => 'LICENSE' }
-  spec.frameworks = 'Foundation', 'UIKit', 'CommonCrypto'
+  spec.frameworks = 'Foundation', 'UIKit'
   spec.dependency 'OrderedDictionary'
 
   spec.platform = :ios, '7.0'
