@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = 'SleakObjc'
-  spec.version  = '0.1.1'
+  spec.version  = '0.1.2'
   spec.summary  = 'A library for Sleak written in Objctive-C.'
   spec.homepage = 'https://github.com/sleak/sleakobjc'
   spec.author = { 'Jason Silberman' => 'j@j99.co' }
