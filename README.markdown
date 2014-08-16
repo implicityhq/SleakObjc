@@ -3,6 +3,8 @@ SleakObjc
 
 A library for Sleak written in Objctive-C.
 
+*Sleak uses [OrderedDictionary](https://github.com/nicklockwood/OrderedDictionary) by [Nick Lockwood](https://github.com/nicklockwood).*
+
 ## Sleak
 Sleak is a new RESTful authentication protocol. Learn more about [Sleak](http://github.com/sleak/spec).
 
